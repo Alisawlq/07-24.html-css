@@ -1,0 +1,63 @@
+#header {
+	width: 100%;
+	height: 40px;
+	background-color: #424242;
+}
+	
+#topbar {
+	height: 40px;
+	width: 1226px;
+	/*padding: 0px 10px 0px 10px; */    /* 会撑开父级元素 */
+	margin: 0 auto;
+	position: relative;
+}
+	
+#topbar a {
+	line-height: 40px;
+	display: inline-block;
+	color: #BDBDBD;
+	/*font-weight: 200;*/
+	text-decoration: none;
+	font-size: 12px;
+}
+
+#topbar a:nth-child(1) {
+	margin-left: 10px;
+}
+	
+#topbar span {
+	color: #616161;
+}
+	
+#topbar a:hover {
+	
+	text-shadow: 0px 1px 1px gray ;
+}
+	
+#topbar span {
+	margin: 0px 0px 0px 6px;
+}
+	
+#topbar-buycart {
+	position: absolute;
+	right: 0px;
+	display: inline-block;
+}
+	
+#msg {
+	position: absolute;
+	height: 10px; width: 18px;
+	background-color: #E0E0E0;
+	border-radius: 10px;
+	right: -4px;top: 7px;
+	font-size: 8px;
+	text-align: center;
+	line-height: 10px;
+}
+
+#buycart {
+	background-color: #757575;
+	width: 100px;
+	text-align: center;
+}
+	

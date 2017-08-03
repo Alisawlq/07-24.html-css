@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			div{
+				background-color: lawngreen;  /* 背景颜色 */
+				width: 200px; height: 200px; /* 你懂得.. */
+			}
+			
+			p {
+				color: darkmagenta;     /* 字体颜色 */
+				
+			}
+			
+			/* 类别选择器 */
+			.price {
+				color: red;
+			}
+			
+			.me-font {
+				font-size: 20px;
+			}
+			
+			
+			/* id 选择器*/
+			#d1{
+				background-color: #8B008B;
+			}
+			
+			#d2{
+				background-color: darkcyan;
+			}
+			
+			#d3{
+				background-color: lightblue;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<div id="d1">
+			
+			<p>小米手机 6 </p>
+			诸多黑科技
+			<p class="price">$99</p>
+		</div>
+		
+		<hr />
+		
+		
+		<div id="d2">
+			
+			<p>iphone 8 </p>
+			卖几个肾.....?????   : (
+			<p class="price">$500</p>
+			<a href="#" class="price me-font">员工购买通道</a>
+		</div>
+			<hr />
+		
+		
+		<div id="d3">
+			
+			<p>华为 P10000</p>
+			挺好用........支持国货....
+			<p>$88</p>
+		</div>
+		
+	</body>
+</html>

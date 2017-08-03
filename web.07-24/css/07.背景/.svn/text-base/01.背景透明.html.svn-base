@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			
+			div{
+				height: 100px; width: 100px;
+				background-color: #0000FF;
+				opacity: .5;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<div>
+			<div></div>
+		</div>
+		
+	</body>
+</html>

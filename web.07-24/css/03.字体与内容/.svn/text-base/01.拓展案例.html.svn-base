@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			#ipt {
+				background-color: gainsboro;
+				border: none;
+				border-radius: 10px;
+				text-indent: 10px;
+			}
+			
+		</style>
+		
+		
+	</head>
+	<body>
+		
+		<input type="text" id="ipt" />
+		
+		
+	</body>
+</html>

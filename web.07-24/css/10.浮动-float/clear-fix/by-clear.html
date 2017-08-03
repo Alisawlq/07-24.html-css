@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			#wrapper {
+				padding: 10px;
+				border: solid lightcoral 1px;
+				width: 400px;
+				
+			}
+			
+			#content {
+				height: 100px;
+				width: 200px;
+				background: darkturquoise;
+				float: left;
+			}
+			
+			/*.clearfix {
+				zoom: 1;
+			}*/
+			
+			.clearfix:after {
+				content: '';
+				display: block;
+				height: 0;
+				font-size: 0;
+				clear: both;
+				overflow: hidden;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+
+			<div id="content" ></div>
+			<span class="clearfix"></span>
+		</div>
+
+	</body>
+
+</html>

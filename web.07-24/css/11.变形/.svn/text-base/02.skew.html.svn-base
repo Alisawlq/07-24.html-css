@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<style>
+			
+			 div {
+				width: 300px;
+				height: 100px;
+				
+				background: orange;
+				transform: skew(-45deg);
+			
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		
+			<div></div>
+
+
+	</body>
+
+</html>

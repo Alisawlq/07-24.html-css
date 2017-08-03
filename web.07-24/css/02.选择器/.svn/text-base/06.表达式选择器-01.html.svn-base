@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			/*  父元素中的第一个子元素  */
+			#u1 li:first-child {
+				color: red;
+			}
+			
+			/*  父元素中的最后一个子元素  */
+			#u1 li:last-child{
+				color: lawngreen;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul id="u1">
+			<li>A</li>
+			<li>B</li>
+			<li id="t3">C</li>
+			<li>D</li>
+			<li>E</li>
+			<li>F</li>
+			<li>G</li>
+		</ul>
+		
+		
+	</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			
+			/* 组合选择器 */
+			#p1 , #t1 , a , .a1 {
+				color: red;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<p id="p1">P1P1P1P1P1P1</p>
+		
+		<table border="" cellspacing="" cellpadding="">
+			<tr><th>Header</th></tr>
+			<tr id="t1"><td>Data</td></tr>
+		</table>
+		
+		<a href="">Java</a><a href="">Java2</a><a href="">Java3</a>
+		
+		<ul>
+			<li class="a1">A</li>
+			<li class="a1">B</li>
+			<li >C</li>
+			
+		</ul>
+		
+		
+	</body>
+</html>

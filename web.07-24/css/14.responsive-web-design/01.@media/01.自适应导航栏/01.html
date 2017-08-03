@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1, user-scalable=no" id="Viewport" name="viewport">
+		<title></title>
+		
+		<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		
+		.navigation {
+			list-style: none;
+			margin: 0;
+			background:darkseagreen;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: flex-end;
+		}
+	
+		.navigation a{
+			text-decoration: none;
+			display: block;
+			padding: 1em;
+			color: white;
+			font-family: "微软雅黑";
+		}
+		.navigation a:hover {
+			background: #5B83AD;
+		}
+		
+		@media all and (max-width:800px ) {
+			.navigation {
+				justify-content: space-around;
+			}
+		}
+		
+		@media all and (max-width:600px) {
+			.navigation {
+				flex-flow: column wrap; padding: 0;
+			}
+			.navigation a{
+				text-align: center;padding: 10px; 
+				border-top: 1px solid rgba(255,255,255,.3);
+				border-bottom: 1px solid rgba(0,0,0,0.1);
+			}
+			.navigation li:last-of-type a{
+				border-bottom: none;
+			}
+		}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<ul class="navigation"><li><a href="#">Scala</li><li><a href="#">AngularJs</li><li><a href="#">Cordova</li><li><a href="#">ReactNative</li></ul>
+		
+		
+		<div>
+			<p></p>
+			<a></a>
+			<p></p>
+			<a></a>
+		</div>
+		
+		
+		
+		
+		
+	</body>
+</html>

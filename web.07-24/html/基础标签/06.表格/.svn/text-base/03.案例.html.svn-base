@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<table border="1" width="60%" align="center">
+			<caption>个人简历</caption>
+			<tr>
+				<td width="10%">Name</td>
+				<td width="30%"></td>
+				<td width="10%">Age</td>
+				<td width="30%"></td>
+				<td colspan="2" rowspan="3" bgcolor="lawngreen" width="20%"></td>
+				
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td></td>
+				<td>Gender</td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td  contenteditable="true">Degree</td>
+				<td></td>
+				<td>xxxxx</td>
+				<td></td>
+				
+			</tr>
+			<tr>
+				<td colspan="6" align="center">个人简介</td>
+				
+			</tr>
+			<tr>
+				<td colspan="6" height="100px"  contenteditable="true" ></td>
+			</tr>
+			
+		</table>
+		
+	
+		
+	</body>
+</html>

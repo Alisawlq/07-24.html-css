@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+
+		<style>
+			.test p {
+				width: 200px;
+				border: 1px solid #000;
+			}
+			
+			.normal p {
+				word-wrap: normal;
+			}
+			
+			.pre p {
+				white-space: pre;
+			}
+			
+			.pre-wrap p {
+				white-space: pre-wrap;
+			}
+			
+			.pre-line p {
+				white-space: pre-line;
+			}
+			
+			.nowrap p {
+				white-space: nowrap;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<p>设置或检索对象内空格的处理方式</p>
+		<p>white-space：normal | pre | nowrap | pre-wrap | pre-line</p>
+		<ul>
+			<li>normal：默认处理方式</li>
+			<li>pre：用等宽字体显示预先格式化的文本，不合并文字间的空白距离，当文字超出边界时不换行。可查阅pre对象</li>
+			<li>nowrap：强制在同一行内显示所有文本，合并文本间的多余空白，直到文本结束或者遭遇br对象</li>
+			<li>pre-wrap：用等宽字体显示预先格式化的文本，不合并文字间的空白距离，当文字碰到边界时发生换行</li>
+			<li>pre-line：保持文本的换行，不保留文字间的空白距离，当文字碰到边界时发生换行</li>
+		</ul>
+
+		<hr>
+
+		<ul class="test">
+			<li class="normal">
+				<strong>normal：</strong>
+				<p>轻轻地我走了       （这里接很多测试文字）  正如我轻轻地来
+				</p>
+			</li>
+			<li class="pre">
+				<strong>pre：</strong>
+				<p>轻轻地我走了     （这里接很多测试文字） 正如我轻轻地来
+				</p>
+			</li>
+			<li class="pre-wrap">
+				<strong>pre-wrap：</strong>
+				<p>轻轻地 我走了     （这里接很多测试文字） 正如我轻轻地来
+				</p>
+			</li>
+			<li class="pre-line">
+				<strong>pre-line</strong>
+				<p>轻轻地 我走了    （这里接很多测试文字） 正如我轻轻地来
+				</p>
+			</li>
+			<li class="nowrap">
+				<strong>nowrap：</strong>
+				<p>轻轻地我走了     （这里接很多测试文字）  正如我轻轻地来</p>
+			</li>
+		</ul>
+	</body>
+
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<form action="http://www.baidu.com/s">
+			
+			<label>Name :&nbsp;</label>
+			<input  name="wd" />	
+			
+			<input type="submit" value="百度一下" />
+			
+			
+		</form>
+		
+	</body>
+</html>

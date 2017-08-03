@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			p {
+				font-size: 40px;
+				text-shadow: 10px 10px 10px blue;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<p>文字阴影.....</p>
+		
+	</body>
+</html>

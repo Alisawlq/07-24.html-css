@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			#container {
+				
+				border: 1px solid red;
+				
+				height: 400px; width: 600px;
+				background: url(../../img/images/建筑-02.jpg) no-repeat;
+				background-size: cover;   /* contain */
+				
+			}
+		</style>
+		
+		
+	</head>
+	<body>
+		
+		<div id="container">
+	
+		</div>
+		
+	</body>
+</html>

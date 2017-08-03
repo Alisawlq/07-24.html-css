@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			div{
+				height: 100px; width: 100px;
+			}
+			
+			#d1 {
+				background-color: #757575;
+				float: left;
+			}
+			
+			#d2 {
+				background-color: #8B008B;
+				float: left;
+			}
+			
+			#d3 {
+				background-color: lightgreen;
+				float: right;
+			}
+		</style>
+		
+		
+		
+	</head>
+	<body>
+		
+		<div id="d1"></div><div id="d2"></div><div id="d3"></div>
+		
+		
+		
+	</body>
+</html>

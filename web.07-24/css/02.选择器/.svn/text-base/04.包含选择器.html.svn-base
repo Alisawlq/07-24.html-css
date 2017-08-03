@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			
+			/* 包含选择器 */
+			
+			
+			#u1 li {
+				color: red;
+			}
+			
+			#u2 li a {
+				color: gold;
+			}
+			
+			
+		</style>
+		
+	</head>
+
+	<body>
+		
+		
+		<ul id="u1">
+			<li>Java</li>
+			<li>python</li>
+			<li>Sprak</li>
+			<li>Springboot</li>
+			<li>play</li>
+		</ul>
+		
+		<ul id="u2">
+			<li>Java</li>
+			<li><a href="">python</a></li>
+			<li>Sprak</li>
+			<li><a href="">Springboot</a></li>
+			<li>play</li>
+		</ul>
+		
+		
+		
+		
+	</body>
+
+</html>

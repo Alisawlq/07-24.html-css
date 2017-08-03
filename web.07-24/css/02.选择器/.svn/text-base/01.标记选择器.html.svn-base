@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			div{
+				background-color: lawngreen;  /* 背景颜色 */
+				width: 200px; height: 200px; /* 你懂得.. */
+			}
+			
+			p {
+				color: darkmagenta;/* 字体颜色 */
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<div>
+			
+			<p>我是 div</p>
+			hello
+		</div>
+		
+		<hr />
+		
+		
+		<div>
+			
+			<p>我也是 div</p>
+			嗯 ...
+		</div>
+			<hr />
+		
+		
+		<div>
+			
+			<p>还有我呢...</p>
+			我知道....
+		</div>
+		
+	</body>
+</html>

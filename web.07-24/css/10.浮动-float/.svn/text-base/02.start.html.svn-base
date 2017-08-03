@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+	
+			
+			#d1 {
+				background-color: #757575;
+				height: 100px; width: 100px;
+				float: left;
+			}
+			
+			#d2 {
+				background-color: #8B008B;
+				height: 100px; width: 100px;
+				float: left;
+			}
+			
+			#d3 {
+				background-color: lightgreen;
+				height: 100px; width: 100px;
+				float: right;
+			}
+			
+			#container {
+				width: 100%;
+				/*height: 200px;*/
+				border: 1px solid red;
+			}
+			
+		</style>
+		
+		
+		
+	</head>
+	<body>
+		
+		<div id="container">
+			
+			<div id="d1"></div><div id="d2"></div><div id="d3"></div>
+			<br clear="all" />
+		</div>
+		
+		
+		
+	</body>
+</html>

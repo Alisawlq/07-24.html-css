@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			
+			* {
+				margin: 0px; padding: 0px;
+			}
+			
+			#container {
+				box-shadow: 0px 0px 10px grey;
+				height: 500px; width: 800px;
+				margin: 0 auto;
+			}
+			
+			#container div{
+				display: inline-block;
+			}
+			
+			
+			#sub1 {
+				height: 100px; width: 100px;
+				background-color: #808080;
+			}
+			#sub2 {
+				height: 100px; width: 100px;
+				background-color: #B3E5FC;
+				position: relative;
+				left: -50px;top:50px;
+				z-index: -1; /* z-index 属性  依赖于  position属性  */
+			}
+			
+			#sub3 {
+				height: 100px; width: 100px;
+				background-color: #8B008B;
+			}
+			
+			
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<br />
+		<br />
+		<br />
+		<br />
+		
+		
+		
+		<div id="container">
+			
+			<div id="sub1"></div><div id="sub2"></div><div id="sub3"></div>
+			
+		</div>
+		
+	</body>
+</html>

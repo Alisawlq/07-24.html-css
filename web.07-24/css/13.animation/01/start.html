@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>变形与动画</title>
+		<style>
+			/* wobble 动画名称 */
+			@-moz-keyframes wobble {
+				0% {
+					
+					transform: translate();
+				}
+				20% {
+					transform: translate(250px , 0);
+					background: green;
+				}
+				40% {
+					transform: translate(250px , 250px);
+					background: orange;
+				}
+				60% {
+					transform: translate(0px , 250px);
+					background: blue; border-radius: 50%;
+				}
+				100% {
+					transform: translate(0px , 0px);
+					background: red;
+					
+				}
+			}
+			
+			
+			@-webkit-keyframes wobble {
+				0% {
+					
+					transform: translate();
+				}
+				20% {
+					transform: translate(250px , 0);
+					background: green;
+				}
+				40% {
+					transform: translate(250px , 250px);
+					background: orange;
+				}
+				60% {
+					transform: translate(0px , 250px);
+					background: blue;
+					border-radius: 50%;
+				}
+				100% {
+					transform: translate(0px , 0px);
+					background: red;
+				}
+			}
+			
+			
+			
+			div {
+				width: 100px;
+				height: 100px;
+				background: red;
+				color: #fff;
+			}
+			
+			div:active {
+				-webkit-animation: wobble 4s ease .1s infinite alternate; 
+				-moz-animation: wobble 4s ease .1s infinite alternate; 
+				animation: wobble 4s ease .1s infinite alternate; 
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div></div>
+	
+	</body>
+</html>

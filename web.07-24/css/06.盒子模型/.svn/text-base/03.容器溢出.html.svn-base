@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		
+		<style>
+			
+			#container {
+				height: 500px;
+				width: 400px;
+				box-shadow: 0px 0px 10px gray;
+				
+				overflow-y: scroll;  /* 越界的不显示 */
+				
+	
+			}
+			
+			#messages {
+				margin: 0 auto;   /* 让外边距 自适应 , 会起到  层相对于父层 横向 居中的效果  */
+				height: auto;
+				width: 300px;
+				background-color: #E57373;
+			}
+			
+			/*  */
+			::-webkit-scrollbar {
+				display: none;
+			}
+			
+		</style>
+		
+	</head>
+	<body>
+		
+		<div id="container">
+			
+			<div id="messages">
+				
+				<br><br><br><br><br><br><br><br><br>
+				<br><br><br><br><br><br><br><br><br>
+				<br><br>
+				Hello
+				<br><br><br><br>
+				<br><br><br><br>
+				中午吃什么////
+				<br><br><br>
+				
+			</div>
+			
+		</div>
+		
+	</body>
+</html>

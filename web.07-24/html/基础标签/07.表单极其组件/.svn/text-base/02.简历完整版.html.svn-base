@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<form action="#">
+		
+		<table border="1" width="60%" align="center">
+			<caption>个人简历</caption>
+			<tr>
+				<td width="10%">Name</td>
+				<td width="30%">
+					<input placeholder="enter your name" required="required" />
+				</td>
+				<td width="10%">Age</td>
+				<td width="30%"><input type="number"/></td>
+				<td colspan="2" rowspan="3" bgcolor="lawngreen" width="20%"></td>
+				
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>
+					<input type="email" required="required" />
+				</td>
+				<td>Gender</td>
+				<td>
+					<label><input type="radio" name="gender"  />Male</label>
+					<label><input type="radio" name="gender" />FeMale</label>
+				</td>
+				
+			</tr>
+			<tr>
+				<td>Skills</td>
+				<td>
+					<input type="checkbox" />Java
+					<input type="checkbox" />Oracle
+					<input type="checkbox" />Node.js
+				</td>
+				<td>Gegree</td>
+				<td>
+					<select>
+						<option>-- 请选择 --</option>
+						<option>本科</option>
+						<option>小学</option>
+						<option>superman</option>
+					</select>
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="6" align="center">个人简介</td>
+				
+			</tr>
+			<tr>
+				<td colspan="6" height="100px"  contenteditable="true" >
+					<textarea rows="10" cols="120">
+						
+						
+					</textarea>
+					
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="6" height="100px"  contenteditable="true" >
+					<input type="file" />
+				</td>
+			</tr>
+			
+			<tr>
+				<td colspan="6" height="50"  align="center">
+					<input type="submit" value="提交" />
+				</td>
+			</tr>
+			
+		</table>
+		
+		</form>
+		
+	</body>
+</html>

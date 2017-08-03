@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+		<style>
+			.clearfix:before,
+			.clearfix:after {
+				content: " ";
+				display: table;
+			}
+			
+			.clearfix:after {
+				clear: both;
+			}
+
+			.clearfix {
+				*zoom: 1;
+			}
+			
+			body {
+				font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+				color: #66595c;
+				background-color: #faf6ec;
+			}
+			
+			p {
+				line-height: 1.68;
+			}
+			
+			h1 {
+				margin-bottom: 0;
+			}
+			
+			h2 {
+				margin-top: 10px;
+				font-weight: 400;
+				line-height: 1.6;
+			}
+			
+			.wrapper {
+				padding: 30px;
+				max-width: 720px;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			/* Styles start here */
+			
+			.circle {
+				width: 250px;
+				height: 250px;
+				background-color: #40a977;
+				border-radius: 50%; /*100%??*/
+				float: left;
+				-webkit-shape-outside: circle();
+				shape-outside: circle();
+				/*outline: 1px dashed lightcoral;*/
+				margin: 10px;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="support-css-shapes">
+			
+			
+		</div>
+
+		<div class="wrapper clearfix">
+			<div class="circle">
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ducimus, minus distinctio quae alias velit vel quas aliquid laboriosam, expedita reiciendis, aperiam quos! Soluta necessitatibus commodi adipisci eum optio mollitia.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident in commodi similique deserunt atque nostrum fuga aspernatur eos quisquam.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, sit.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ducimus, minus distinctio quae alias velit vel quas aliquid laboriosam, expedita reiciendis, aperiam quos! Soluta necessitatibus commodi adipisci eum optio mollitia.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At provident in commodi similique deserunt atque nostrum fuga aspernatur eos quisquam.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, sit.</p>
+		</div>
+
+	</body>
+
+</html>

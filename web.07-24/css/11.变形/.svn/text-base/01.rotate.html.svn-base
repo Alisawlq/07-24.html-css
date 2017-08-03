@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style type="text/css">
+			div{
+				height: 100px; width: 100px;
+				background-color: #008B8B;
+				transform: rotate(45deg);
+			}
+		</style>
+		
+	</head>
+	<body>
+		
+		<div></div>
+		
+	</body>
+</html>

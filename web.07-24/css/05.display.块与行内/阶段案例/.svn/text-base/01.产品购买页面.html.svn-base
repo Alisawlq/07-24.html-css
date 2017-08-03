@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+		<style>
+			
+			#container {
+				height: 500px; width: 1000px;
+				box-shadow: 0px 0px 10px gray;
+			}
+			
+			.item {
+				height: 300px; width: 200px;
+				background-color: #EEEEEE;
+			}
+			
+			.img {
+				height: 140px; width: 200px;
+				text-align: center;
+			}
+			
+			.img img{
+				height: 140px; width: 180px;
+			}
+			
+			.text-center{
+				text-align: center;
+			}
+			
+			.desc{
+				line-height: 170%;
+			}
+			
+			.name {
+				color: #424242;
+				font-size: large;
+				
+			}
+			
+			.detail {
+				color: #BDBDBD;
+			}
+			
+			.price{
+				color: #FF8F00;
+			}
+			.remove-line {
+				font-size: 10px;
+				text-decoration: line-through;
+				color: grey;
+			}
+			
+			.buy{
+				width: 200px;
+				height: 50px;
+				font-size: large;
+				color: white;
+				background-color: #FF8F00 ;
+				text-align: center;
+				line-height: 50px;
+			}
+			
+			
+			
+			
+		</style>
+		
+		
+	</head>
+	<body>
+		
+		<div id="container">
+			
+			<div class="item">
+				<div class="img">
+					<img src="../../../img/images/xiaomi/pms_1490077454.46128587!220x220.png" alt="" />
+				</div>
+				<hr width="90%" />
+				
+				<div class="desc">
+					<div class="name text-center">小米电视4A 49英寸</div>
+					<div class="detail text-center"> 直降300 高清 HDR </div>
+					<div class="price text-center">2299元 <a class="remove-line">原价3399元</a></div>
+				</div>
+				
+				<div class="buy">购买</div>
+				
+			</div>
+			
+		</div>
+		
+		
+	</body>
+</html>
